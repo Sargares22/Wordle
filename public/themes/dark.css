@@ -1,0 +1,17 @@
+:root {
+  --col-hue: 250;
+
+  --col-bg: hsl(var(--col-hue), 20%, 15%);
+  --col-base-1: hsl(var(--col-hue), 10%, 55%);
+  --col-base-2: hsl(var(--col-hue), 20%, 70%);
+  --col-base-3: hsl(var(--col-hue), 10%, 35%);
+  --col-base-4: hsl(0, 0%, 100%);
+
+  --col-text-primary: hsl(var(--col-hue), 10%, 90%);
+  --col-text-secondary: hsl(var(--col-hue), 10%, 40%);
+  --col-text-inverted: hsl(0, 0%, 100%);
+
+  --col-correct: hsl(95, 40%, 50%);
+  --col-warning: hsl(45, 90%, 60%);
+  --col-error: hsl(0, 90%, 60%);
+}

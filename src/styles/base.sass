@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=B612:wght@400;700;900&display=swap')
+@import 'src/styles/variables.sass'
+
+*, *::before, *::after
+  box-sizing: border-box
+
+body
+  margin: 0
+  padding: 0
+  font-family: 'B612', 'Open Sans', 'Helvetica Neue', Arial, sans-serif
+
+button
+  display: inline-flex
+
+  padding: $spacing-md $spacing-lg
+
+  background-color: transparent
+  color: inherit
+
+  font-size: inherit
+  border: none
+  outline: none
+  cursor: pointer
+
+hr
+  width: 100%
+
+  margin: $spacing-lg
+  border: none
+  border-bottom: 1px solid $col-base-1
+
+.content-block
+  display: flex
+  flex-direction: column
+  justify-content: center
+  align-items: center
+
+  width: 100%
+
+  @media screen and (max-width: 520px)
+    width: auto
+
+.icon
+  display: flex
+  justify-content: center
+  align-items: center
+
+  padding: $spacing-md
+  background-color: $col-base-1
+  color: $col-base-4
+  font-size: $font-size-xl
+
+  border-radius: $border-radius-md
+  cursor: pointer
+  transition: background-color $transition-speed-fast ease
+
+  &:hover
+    background-color: $col-base-2
